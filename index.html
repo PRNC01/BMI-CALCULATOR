@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="Bmi-Calculator">
+        <div id="Heading"><h1>BMI CALCULATOR</h1></div>
+        <div id="Calculator">
+            <div id="inputBox">
+                <div id="input">
+                    <div class="inputGroup">
+                        <label for="Age">AGE :</label>
+                        <input type="number" class="Num">
+                        <label for="">Ages: 2-120</label>
+                    </div>   
+                    <div class="inputGroup" id="Gender">
+                        <label for="Gender">Gender : </label>
+                        <input type="radio" name="Gender" id="male" class="gen"><label for="">  MALE</label>
+                        <input type="radio" name="Gender" id="female" class="gen"><label for="">  FEMALE</label>
+                    </div>
+                    <div class="inputGroup">
+                        <label for="Age">HEIGHT :</label>
+                        <input type="number" class="Num">
+                    </div>
+                    <div class="inputGroup">
+                        <label for="Age">WEIGHT :</label>
+                        <input type="number" class="Num">
+                    </div>
+                    <div class="inputGroup" id="BtnBox">
+                        <button id="Submit">Calculate</button>
+                        <button id="clear">Clear</button>
+                    </div>
+                </div>
+            </div>
+            <div id="Result">
+                <div id="resultBox">
+                    <div id="ResultHeading">
+                        <h2>RESULT</h2>
+                    </div>
+                    <div id="resultDisplay">
+
+                    </div>
+
+                </div>
+                <div id="Chart">
+                    <ul id="list">
+                        <li class="li">Healthy BMI range: 18.5 kg/m2 - 25 kg/m2</li>
+                        <li class="li">Healthy weight for the height: 66.8 kg - 90.3 kg</li>
+                        <li class="li">Gain 16.8 kg to reach a BMI of 18.5 kg/m2.</li>
+                        <li class="li">BMI Prime: 0.56</li>
+                        <li class="li">Ponderal Index: 7.3 kg/m3</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="Footer">
+            <p>The Body Mass Index (BMI) Calculator can be used to calculate BMI value and corresponding weight status while taking age into consideration. Use the "Metric Units" tab for the International System of Units or the "Other Units" tab to convert units into either US or metric units. Note that the calculator also computes the Ponderal Index in addition to BMI, both of which are discussed below in detail.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
