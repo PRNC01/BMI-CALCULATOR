@@ -15,21 +15,21 @@
                 <div id="input">
                     <div class="inputGroup">
                         <label for="Age">AGE :</label>
-                        <input type="number" class="Num">
+                        <input type="number" class="Num" id="Age">
                         <label for="">Ages: 2-120</label>
                     </div>   
                     <div class="inputGroup" id="Gender">
                         <label for="Gender">Gender : </label>
-                        <input type="radio" name="Gender" id="male" class="gen"><label for="">  MALE</label>
-                        <input type="radio" name="Gender" id="female" class="gen"><label for="">  FEMALE</label>
+                        <input type="radio" name="Gender" class="gen" value="Male"><label for="">  MALE</label>
+                        <input type="radio" name="Gender" class="gen" value="Female"><label for="">  FEMALE</label>
                     </div>
                     <div class="inputGroup">
-                        <label for="Age">HEIGHT :</label>
-                        <input type="number" class="Num">
+                        <label for="Height">HEIGHT :</label>
+                        <input type="number" class="Num" id="Height">
                     </div>
                     <div class="inputGroup">
-                        <label for="Age">WEIGHT :</label>
-                        <input type="number" class="Num">
+                        <label for="weight">WEIGHT :</label>
+                        <input type="number" class="Num" id="Weight">
                     </div>
                     <div class="inputGroup" id="BtnBox">
                         <button id="Submit">Calculate</button>
@@ -43,7 +43,8 @@
                         <h2>RESULT</h2>
                     </div>
                     <div id="resultDisplay">
-
+                        <div id="Bmi"></div>
+                        <div id="finalResult"></div>
                     </div>
 
                 </div>
